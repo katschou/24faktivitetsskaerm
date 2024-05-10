@@ -11,6 +11,10 @@ $link-decoration: none;
 // 4. Include any default map overrides here
 $custom-colors: (
 	"farve": $cyan-400,
+	"lysebrun": #E0CEB4,
+	"morkebrun": #452D20,
+	"lysebla": #C7E0ED,
+	"morkebla": #1F375E,
 );
 
 $theme-colors: map-merge($theme-colors, $custom-colors);
@@ -18,3 +22,41 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 @import "bootstrapComponents";
 
 // 5. Du kan lave styling her...
+
+.overskrift {
+	font-family: "blanket", sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	//font-size: 700%;
+}
+
+.underskrift {
+	font-family: "blanket", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	//font-size: 500%;
+}
+
+.card-index {
+
+}
+
+.card-tekst {
+	align-self: center;
+	font-size: 300%;
+}
+
+.card-img-overlay {
+	font-family: "blanket", sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 150%;
+	align-self: center;
+	justify-self: center;
+}
+
+.text-bg-lysebrun {
+	opacity: 85%;
+	padding: 7px 25px 7px 20px;
+	border-radius: 10px;
+}
