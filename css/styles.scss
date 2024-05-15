@@ -23,19 +23,19 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 // 5. Du kan lave styling her...
 
 .overskrift {
-	font-family: "blanket", sans-serif;
-	font-weight: 700;
+	font-family: "ardoise-narrow-std", sans-serif;
+	font-weight: 400;
 	font-style: normal;
-	color: #452D20;
-	font-size: 700%;
+	color: #452d20;
+	font-size: 500%;
 }
 
 .underskrift {
-	font-family: "blanket", sans-serif;
+	font-family: "ardoise-narrow-std", sans-serif;
 	font-weight: 400;
 	font-style: normal;
-	color: #452D20;
-	font-size: 500%;
+	color: #452d20;
+	font-size: 300%;
 }
 
 .card-index {
@@ -64,5 +64,13 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 
 .backBtn {
 	font-size: 500%;
+	color: #452D20;
+}
+
+#time {
+	font-size: 100px;
+	font-family: "ardoise-narrow-std", sans-serif;
+	font-weight: 400;
+	font-style: normal;
 	color: #452D20;
 }

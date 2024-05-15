@@ -28,21 +28,21 @@ require "settings/init.php";
     <div class="header container container-fluid">
         <div class="row row-cols-3">
 
-        <div class="container">
-            <div class="btn backBtn m-2">
-                <i class="fa-solid fa-arrow-left"></i>
+            <div class="container col">
+                <div class="btn backBtn">
+                    <i class="fa-solid fa-arrow-left"></i>
+                </div>
+            </div>
+
+            <div class="container col">
+                <div class="logo">
+                    <img src="img/logobrun150.webp" alt="Logo">
+                </div>
+            </div>
+
+            <div class="col" id="time">
             </div>
         </div>
-
-        <div class="container">
-            <div class="logo">
-                <img src="img/logobrun150.webp" alt="Logo">
-            </div>
-        </div>
-
-        <div class="position-absolute rounded-bottom-5 m-0" id="time" style="font-size: 100px; padding-right: 30px;">
-        </div>
-    </div>
     </div>
 
     <div class="container">
