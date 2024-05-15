@@ -27,7 +27,7 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 	font-weight: 700;
 	font-style: normal;
 	color: #452D20;
-	//font-size: 700%;
+	font-size: 700%;
 }
 
 .underskrift {
@@ -35,11 +35,11 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 	font-weight: 400;
 	font-style: normal;
 	color: #452D20;
-	//font-size: 500%;
+	font-size: 500%;
 }
 
-.index-pic {
-
+.card-index {
+	margin: 30px;
 }
 
 .card-tekst {
@@ -60,4 +60,9 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 	opacity: 85%;
 	padding: 7px 20px 7px 20px;
 	border-radius: 10px;
+}
+
+.backBtn {
+	font-size: 500%;
+	color: #452D20;
 }

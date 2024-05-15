@@ -18,12 +18,32 @@ require "settings/init.php";
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <script src="https://kit.fontawesome.com/bfdd5c06bb.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://use.typekit.net/ovq0flk.css">
 </head>
 
 <body style="color: #FFF">
 <div class="container" style="width:1130px; background-color: #E0CEB4">
 
+    <div class="header container container-fluid">
+        <div class="row row-cols-3">
+
+        <div class="container">
+            <div class="btn backBtn m-2">
+                <i class="fa-solid fa-arrow-left"></i>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="logo">
+                <img src="img/logobrun150.webp" alt="Logo">
+            </div>
+        </div>
+
+        <div class="position-absolute rounded-bottom-5 m-0" id="time" style="font-size: 100px; padding-right: 30px;">
+        </div>
+    </div>
+    </div>
 
     <div class="container">
         <div class="overskrift text-center">
@@ -37,11 +57,10 @@ require "settings/init.php";
         </div>
     </div>
 
-    <div class="container">
-        <div class="row row-cols-2">
+    <div class="container container-fluid">
+        <div class="row row-cols-2 justify-content-center">
 
-
-            <div class="card col card-index p-0" style="width: 500px; height:500px;">
+            <div class="card col card-index p-0" style="width: 450px; height:450px;">
                 <a href="#" class="stretched-link"></a>
                 <img src="img/romantik300.webp" alt="To mennesker der klinker vinglas">
                 <div class="card-img-overlay">
@@ -49,7 +68,7 @@ require "settings/init.php";
                 </div>
             </div>
 
-            <div class="card col card-index p-0" style="width: 500px; height:500px">
+            <div class="card col card-index p-0" style="width: 450px; height:450px">
                 <a href="#" class="stretched-link"></a>
                 <img src="img/sport300.webp" alt="En golfbold på en golfplæne">
                 <div class="card-img-overlay">
@@ -57,7 +76,7 @@ require "settings/init.php";
                 </div>
             </div>
 
-            <div class="card col card-index p-0" style="width: 500px; height:500px">
+            <div class="card col card-index p-0" style="width: 450px; height:450px">
                 <a href="#" class="stretched-link"></a>
                 <img src="img/kultur300.webp" alt="Holbæk gågade">
                 <div class="card-img-overlay">
@@ -65,7 +84,7 @@ require "settings/init.php";
                 </div>
             </div>
 
-            <div class="card col card-index p-0" style="width: 500px; height:500px">
+            <div class="card col card-index p-0" style="width: 450px; height:450px">
                 <a href="#" class="stretched-link"></a>
                 <img src="img/afslapning300.webp" alt="En terrasse med udsigt til fjorden">
                 <div class="card-img-overlay">
@@ -73,12 +92,13 @@ require "settings/init.php";
                 </div>
             </div>
         </div>
+
     </div>
 </div>
 
 
 <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-
+<script src="js/java.js"></script>
 </body>
 
 </html>
