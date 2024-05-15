@@ -10,7 +10,6 @@ $link-decoration: none;
 
 // 4. Include any default map overrides here
 $custom-colors: (
-	"farve": $cyan-400,
 	"lysebrun": #E0CEB4,
 	"morkebrun": #452D20,
 	"lysebla": #C7E0ED,
@@ -27,6 +26,7 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 	font-family: "blanket", sans-serif;
 	font-weight: 700;
 	font-style: normal;
+	color: #452D20;
 	//font-size: 700%;
 }
 
@@ -34,6 +34,7 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 	font-family: "blanket", sans-serif;
 	font-weight: 400;
 	font-style: normal;
+	color: #452D20;
 	//font-size: 500%;
 }
 
@@ -57,6 +58,6 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 
 .text-bg-lysebrun {
 	opacity: 85%;
-	padding: 7px 25px 7px 20px;
+	padding: 7px 20px 7px 20px;
 	border-radius: 10px;
 }

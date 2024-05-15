@@ -21,7 +21,8 @@ require "settings/init.php";
     <link rel="stylesheet" href="https://use.typekit.net/ovq0flk.css">
 </head>
 
-<body class="bg-lysebrun">
+<body style="color: #FFF">
+<div class="container" style="width:1130px; background-color: #E0CEB4">
 
 
 <div class="container">
@@ -72,6 +73,7 @@ require "settings/init.php";
     </div>
 </div>
 
+</div>
 
 <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 
