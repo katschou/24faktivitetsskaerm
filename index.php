@@ -18,7 +18,6 @@ require "settings/init.php";
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <script src="https://kit.fontawesome.com/bfdd5c06bb.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://use.typekit.net/ovq0flk.css">
 </head>
 
@@ -30,13 +29,17 @@ require "settings/init.php";
 
             <div class="col backBtn">
                 <div class="btn">
-                    <img src="img/backbtnsmol.webp" alt="Tilbage pil">
+                    <a href="forside.php">
+                        <img src="img/backbtnsmol.webp" alt="Tilbage pil">
+                    </a>
                 </div>
             </div>
 
             <div class="logo col">
                 <div class="btn">
-                    <img src="img/logobrun150.webp" alt="Logo">
+                    <a href="forside.php">
+                        <img src="img/logobrun150.webp" alt="Logo">
+                    </a>
                 </div>
             </div>
 
