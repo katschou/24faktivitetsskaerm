@@ -45,6 +45,7 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 .card-tekst {
 	align-self: center;
 	font-size: 300%;
+	color: #452d20;
 }
 
 .card-img-overlay {
@@ -63,14 +64,21 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 }
 
 .backBtn {
-	font-size: 500%;
-	color: #452D20;
+	padding-left: 65px;
+	padding-top: 70px;
+}
+
+.logo {
+	padding-left: 100px;
+	padding-top: 65px;
 }
 
 #time {
-	font-size: 100px;
+	font-size: 90px;
 	font-family: "ardoise-narrow-std", sans-serif;
 	font-weight: 400;
 	font-style: normal;
 	color: #452D20;
+	padding-top: 50px;
+	padding-left: 100px;
 }

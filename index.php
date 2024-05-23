@@ -23,25 +23,26 @@ require "settings/init.php";
 </head>
 
 <body style="color: #FFF">
-<div class="container" style="width:1130px; background-color: #E0CEB4">
+<div class="container" style="width:1130px; height:1720px; background-color: #E0CEB4">
 
-    <div class="header container container-fluid">
+    <div class="header container">
         <div class="row row-cols-3">
 
-            <div class="container col">
-                <div class="btn backBtn">
-                    <i class="fa-solid fa-arrow-left"></i>
+            <div class="col backBtn">
+                <div class="btn">
+                    <img src="img/backbtnsmol.webp">
                 </div>
             </div>
 
-            <div class="container col">
-                <div class="logo">
+            <div class="logo col">
+                <div class="btn">
                     <img src="img/logobrun150.webp" alt="Logo">
                 </div>
             </div>
 
             <div class="col" id="time">
             </div>
+
         </div>
     </div>
 
@@ -94,11 +95,13 @@ require "settings/init.php";
         </div>
 
     </div>
+
 </div>
 
 
 <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 <script src="js/java.js"></script>
+
 </body>
 
 </html>
