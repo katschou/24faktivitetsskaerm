@@ -22,12 +22,33 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 
 // 5. Du kan lave styling her...
 
+.backBtn {
+	padding-left: 65px;
+	padding-top: 70px;
+}
+
+.logo {
+	padding-left: 100px;
+	padding-top: 65px;
+}
+
+#time {
+	font-size: 90px;
+	font-family: "ardoise-narrow-std", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	color: #452D20;
+	padding-top: 50px;
+	padding-left: 100px;
+}
+
 .overskrift {
 	font-family: "ardoise-narrow-std", sans-serif;
 	font-weight: 400;
 	font-style: normal;
 	color: #452d20;
 	font-size: 500%;
+	padding-top: 70px;
 }
 
 .underskrift {
@@ -38,8 +59,16 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 	font-size: 300%;
 }
 
+.containerCards {
+	margin-top: 100px;
+}
+
 .card-index {
 	margin: 30px;
+	width: 450px;
+	height:450px;
+	border: none;
+	background-color: #e0ceb4
 }
 
 .card-tekst {
@@ -61,24 +90,4 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 	opacity: 85%;
 	padding: 7px 20px 7px 20px;
 	border-radius: 10px;
-}
-
-.backBtn {
-	padding-left: 65px;
-	padding-top: 70px;
-}
-
-.logo {
-	padding-left: 100px;
-	padding-top: 65px;
-}
-
-#time {
-	font-size: 90px;
-	font-family: "ardoise-narrow-std", sans-serif;
-	font-weight: 400;
-	font-style: normal;
-	color: #452D20;
-	padding-top: 50px;
-	padding-left: 100px;
 }
