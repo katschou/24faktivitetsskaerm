@@ -35,7 +35,7 @@ require "settings/init.php";
                 </div>
             </div>
 
-            <div class="logo col">
+            <div class="logoIndex col">
                 <div class="btn">
                     <a href="forside.php">
                         <img src="img/logobrun150.webp" alt="Logo">
@@ -43,7 +43,7 @@ require "settings/init.php";
                 </div>
             </div>
 
-            <div class="col" id="time">
+            <div class="col timeIndex" id="time">
             </div>
 
         </div>

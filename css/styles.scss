@@ -27,12 +27,12 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 	padding-top: 70px;
 }
 
-.logo {
+.logoIndex {
 	padding-left: 100px;
 	padding-top: 65px;
 }
 
-#time {
+.timeIndex {
 	font-size: 90px;
 	font-family: "ardoise-narrow-std", sans-serif;
 	font-weight: 400;
@@ -74,7 +74,7 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 .card-tekst {
 	align-self: center;
 	font-size: 300%;
-	color: #452d20;
+	color: #452d20 !important;
 }
 
 .card-img-overlay {
@@ -87,7 +87,70 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 }
 
 .text-bg-lysebrun {
-	opacity: 85%;
+	background-color: rgb(224, 206, 180) !important;
 	padding: 7px 20px 7px 20px;
 	border-radius: 10px;
+}
+
+#myVideo {
+	position: static;
+	width: 100.3%;
+	height: 100%;
+	margin-top: 20px;
+	z-index: -5;
+}
+
+.timeForside {
+	font-size: 90px;
+	font-family: "ardoise-narrow-std", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	margin: 0;
+	background-color: #1F375E;
+	color: #C7E0ED;
+}
+
+.timeBox {
+	border-radius: 0 0 0 20px;
+}
+
+.textOplev {
+	font-size: 80px;
+	font-family: "ardoise-narrow-std", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	color: #C7E0ED;
+	margin-top: 200px;
+}
+
+.boxOplev {
+	background-color: rgba(31, 55, 94, 0.7) !important;
+	color: #C7E0ED;
+	padding: 20px;
+	border-radius: 10px;
+}
+
+.trykBtn {
+	font-size: 650%;
+	font-family: "ardoise-narrow-std", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	border-width: 10px;
+	border-color: #C7E0ED;
+	border-style: solid;
+	border-radius: 25px;
+}
+
+.containerTrykBtn {
+	z-index: 3;
+	margin-top: 1000px;
+	margin-left: 265px;
+}
+
+.trykText {
+	padding: 40px 125px 40px 125px;
+}
+
+.logoForside {
+	z-index: 2;
 }
