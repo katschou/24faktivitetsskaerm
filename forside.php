@@ -23,7 +23,7 @@ require "settings/init.php";
     <link rel="stylesheet" href="https://use.typekit.net/ovq0flk.css">
 </head>
 
-<body>
+<body class="bg-lysebla">
 <div class="container position-relative bg-morkebla" style="width:1130px; height:1720px;">
 
     <div class="header container position-absolute">
@@ -45,12 +45,13 @@ require "settings/init.php";
     </div>
 
     <div class="position-absolute">
-        <div class="row" style="margin-left:115px;">
+        <div class="row">
             <div class=" textOplev text-center text-bg-morkebla boxOplev">
                 <p class="p-4 text-lysebla">Oplev Hotel Strandparken <br> og Holbæk by</p>
             </div>
         </div>
     </div>
+
 
     <div class="containerTrykBtn position-absolute">
         <div class="trykBtn">
@@ -60,16 +61,24 @@ require "settings/init.php";
                 </p>
             </a>
         </div>
+    </div>
 
-
-
-
-              <div class="text-center position-absolute">
-                  <img src="" id="todayIcon" class="img-fluid w-50 my-2" alt="Vejr ikon">
-                  <div>
-                      <span id="todayTemp">0</span> <span>&#8451;</span>
-                  </div>
-              </div>
+    
+    <div>
+        <div class="vejr card mb-3 position-absolute rounded-4">
+            <a href="" class="text-morkebla">
+            <div class="row g-0">
+                <div class="col-6">
+                    <img src="" id="todayIcon" class="img-fluid my-2" href="index.php" alt="Vejr ikon">
+                </div>
+                <div class="col-6">
+                    <div class="card-body" style="margin-top: 30px">
+                        <span id="todayTemp">0</span> <span>°c</span>
+                    </div>
+                </div>
+            </div>
+            </a>
+        </div>
     </div>
 
     <div class="container">
@@ -77,7 +86,6 @@ require "settings/init.php";
             <source src="vid/videoskaermp.mp4" type="video/mp4">
         </video>
     </div>
-
 
 
 </div>

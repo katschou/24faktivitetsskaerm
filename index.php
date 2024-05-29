@@ -8,7 +8,7 @@ require "settings/init.php";
 <head>
     <meta charset="utf-8">
 
-    <title>Find aktiviteter</title>
+    <title>Vælg kategori</title>
 
     <meta name="robots" content="All">
     <meta name="author" content="Udgiver">
@@ -21,7 +21,7 @@ require "settings/init.php";
     <link rel="stylesheet" href="https://use.typekit.net/ovq0flk.css">
 </head>
 
-<body style="color: #FFF">
+<body class="bg-lysebla">
 <div class="container" style="width:1130px; height:1720px; background-color: #E0CEB4">
 
     <div class="header container">

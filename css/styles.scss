@@ -87,7 +87,7 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 }
 
 .text-bg-lysebrun {
-	background-color: rgb(224, 206, 180) !important;
+	background-color: rgb(224, 206, 180, 0.8) !important;
 	padding: 7px 20px 7px 20px;
 	border-radius: 10px;
 }
@@ -120,13 +120,14 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 	font-weight: 400;
 	font-style: normal;
 	color: #C7E0ED;
-	margin-top: 200px;
+	margin-top: 300px;
 }
 
 .boxOplev {
 	background-color: rgba(31, 55, 94, 0.7) !important;
 	color: #C7E0ED;
-	padding: 20px;
+	padding: 1px 50px 1px 50px;
+	margin-left: 60px;
 	border-radius: 10px;
 }
 
@@ -143,7 +144,7 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 
 .containerTrykBtn {
 	z-index: 3;
-	margin-top: 1000px;
+	margin-top: 1100px;
 	margin-left: 265px;
 }
 
@@ -153,4 +154,30 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 
 .logoForside {
 	z-index: 2;
+}
+
+.vejr{
+	height: 200px;
+	width: 450px;
+	margin-top: 1450px;
+	margin-left: 340px;
+	font-size: 400%;
+	font-family: "ardoise-narrow-std", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	background-color: rgba(199, 224, 237, 0.7) !important;
+	color: #1F375E;
+	z-index: 4;
+}
+
+.btnKategorier {
+	font-family: "blanket", sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 400%;
+	margin-top: 70px;
+}
+
+.aktBillede {
+
 }
