@@ -65,7 +65,7 @@ require "settings/init.php";
         <div class="row row-cols-2 justify-content-center">
 
             <div class="card col card-index p-0">
-                <a href="#" class="stretched-link"></a>
+                <a href="aktiviteter.php?kategoriId=1" class="stretched-link"></a>
                 <img src="img/romantik300.webp" class="rounded-5" alt="To mennesker der klinker vinglas">
                 <div class="card-img-overlay">
                     <h5 class="card-tekst text-bg-lysebrun">Romantik</h5>
@@ -73,7 +73,7 @@ require "settings/init.php";
             </div>
 
             <div class="card col card-index p-0">
-                <a href="#" class="stretched-link"></a>
+                <a href="aktiviteter.php?kategoriId=2" class="stretched-link"></a>
                 <img src="img/sport300.webp" class="rounded-5" alt="En golfbold på en golfplæne">
                 <div class="card-img-overlay">
                     <h5 class="card-tekst text-bg-lysebrun">Sport</h5>
@@ -81,7 +81,7 @@ require "settings/init.php";
             </div>
 
             <div class="card col card-index p-0">
-                <a href="#" class="stretched-link"></a>
+                <a href="aktiviteter.php?kategoriId=3" class="stretched-link"></a>
                 <img src="img/kultur300.webp" class="rounded-5" alt="Holbæk gågade">
                 <div class="card-img-overlay">
                     <h5 class="card-tekst text-bg-lysebrun">Kultur</h5>
@@ -89,7 +89,7 @@ require "settings/init.php";
             </div>
 
             <div class="card col card-index p-0">
-                <a href="#" class="stretched-link"></a>
+                <a href="aktiviteter.php?kategoriId=4" class="stretched-link"></a>
                 <img src="img/afslapning300.webp" class="rounded-5" alt="En terrasse med udsigt til fjorden">
                 <div class="card-img-overlay">
                     <h5 class="card-tekst text-bg-lysebrun">Afslapning</h5>

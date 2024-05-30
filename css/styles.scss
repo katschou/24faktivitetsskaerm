@@ -68,13 +68,19 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 	width: 450px;
 	height:450px;
 	border: none;
-	background-color: #e0ceb4
+	background-color: #e0ceb4;
 }
 
 .card-tekst {
 	align-self: center;
 	font-size: 300%;
 	color: #452d20 !important;
+}
+
+.card-btn {
+	font-size: 100%;
+	color: #e0ceb4;
+	min-width: 85%;
 }
 
 .card-img-overlay {
@@ -176,8 +182,27 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 	font-style: normal;
 	font-size: 400%;
 	margin-top: 70px;
+	color: #E0CEB4;
+	margin-bottom: 20px;
 }
 
-.aktBillede {
+.aktCardBil {
+	max-width: 500px;
+}
 
+.aktCard {
+	font-size: 200%;
+	font-family: "ardoise-narrow-std", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	background-color: #e0ceb4;
+	border: 0;
+	padding-bottom: 50px;
+}
+
+.cardTitleAkt {
+	font-size: 180%;
+	font-family: "ardoise-narrow-std", sans-serif;
+	font-weight: 400;
+	font-style: normal;
 }
