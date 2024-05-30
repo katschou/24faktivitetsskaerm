@@ -206,3 +206,49 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 	font-weight: 400;
 	font-style: normal;
 }
+
+.coverBillede {
+	margin: 0;
+	padding: 0;
+	width: 110px;
+}
+
+.backBtnMere {
+	padding-left: 65px;
+	padding-top: 70px;
+}
+
+.timeMere {
+	font-size: 90px;
+	font-family: "ardoise-narrow-std", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	color: #C7E0ED;
+	padding-top: 50px;
+	padding-left: 280px;
+}
+
+.line {
+	width: 100%;
+	margin-bottom: 50px;
+}
+
+.aktOverskrift {
+	font-family: "blanket", sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 600%;
+	color: #452d20;
+	margin-top: 10px;
+}
+
+.beskrivelse {
+	font-size: 300%;
+	font-family: "ardoise-narrow-std", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+.vejrQr {
+	padding-bottom: 40px;
+}

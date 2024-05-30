@@ -103,7 +103,7 @@ require "settings/init.php";
                                     ?>
                                 </p>
                                 <div class="position-absolute start-50 top-100 translate-middle-x card-btn ps-4">
-                                    <button class="card-btn btn btn-morkebrun rounded-0">Læs mere</button>
+                                    <a class="card-btn btn btn-morkebrun rounded-0" href="mere.php">Læs mere</a>
                                 </div>
                             </div>
                         </div>
