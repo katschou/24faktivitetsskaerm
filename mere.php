@@ -47,7 +47,6 @@ require "settings/init.php";
         <img src="img/knudskovenncrop.webp">
     </div>
 
-
     <?php
     $sql = "SELECT * FROM aktiviteter WHERE (aktiviteter.aktId = 1)";
     $aktiviteter = $db->sql($sql);
