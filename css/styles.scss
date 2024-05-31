@@ -14,6 +14,7 @@ $custom-colors: (
 	"morkebrun": #452D20,
 	"lysebla": #C7E0ED,
 	"morkebla": #1F375E,
+	"gron": #586c52,
 );
 
 $theme-colors: map-merge($theme-colors, $custom-colors);
@@ -214,8 +215,10 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 }
 
 .backBtnMere {
-	padding-left: 65px;
-	padding-top: 70px;
+	background-color: rgba(31, 55, 94, 0.7) !important;
+	margin-top: 30px;
+	margin-left: 40px;
+	border-radius: 15px;
 }
 
 .timeMere {
@@ -223,14 +226,17 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 	font-family: "ardoise-narrow-std", sans-serif;
 	font-weight: 400;
 	font-style: normal;
+	padding: 3px 20px 10px 20px;
+	margin-top: 30px;
+	margin-left: 70px;
+	border-radius: 15px;
 	color: #C7E0ED;
-	padding-top: 50px;
-	padding-left: 280px;
+	background-color: rgba(31, 55, 94, 0.7) !important;
 }
 
 .line {
 	width: 100%;
-	margin-bottom: 50px;
+	margin-bottom: 80px;
 }
 
 .aktOverskrift {
@@ -247,8 +253,37 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 	font-family: "ardoise-narrow-std", sans-serif;
 	font-weight: 400;
 	font-style: normal;
+	margin-left: 30px;
+	margin-right: 30px;
 }
 
 .vejrQr {
 	padding-bottom: 40px;
+	margin-top: 80px;
+}
+
+.qr {
+	height: 280px;
+	padding-left: 120px;
+}
+
+.qr-tekst {
+	font-size: 300%;
+	font-family: "ardoise-narrow-std", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	color: #E0CEB4;
+}
+
+.vejrKnud {
+	height: 380px;
+	padding-left: 25px;
+}
+
+.vejrKnudTekst {
+	font-size: 300%;
+	font-family: "ardoise-narrow-std", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	color: #E0CEB4;
 }

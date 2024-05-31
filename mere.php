@@ -22,21 +22,22 @@ require "settings/init.php";
 
     <link rel="stylesheet" href="https://use.typekit.net/ovq0flk.css">
 </head>
-<body class="bg-lysebla">
+<body class="bg-gron">
 <div class="container position-relative" style="width:1130px; background-color: #E0CEB4">
 
     <div class="header container position-absolute">
         <div class="row row-cols-2">
 
-            <div class="col backBtnMere">
+            <div class="col">
                 <div class="btn">
-                    <a href="aktiviteter.php?kategoriId=4">
-                        <img src="img/backbtnsmol.webp" alt="Tilbage pil">
+                    <a href="aktiviteter.php?kategoriId=4" class="">
+                        <img src="img/backbtnblue.webp" class="backBtnMere p-4" alt="Tilbage pil">
                     </a>
                 </div>
             </div>
 
-            <div class="col timeMere" id="time">
+            <div class="col justify-content-center d-flex">
+                <p id="time" class="timeMere"></p>
             </div>
 
         </div>
@@ -68,6 +69,22 @@ require "settings/init.php";
         <?php
     }
     ?>
+
+    <div class="container vejrQr">
+        <div class="row row-cols-2">
+            <div style="height: 540px; width: 540px;" class="col bg-morkebla align-content-center rounded-3 me-4">
+                <p class="vejrKnudTekst text-center">Vejrudsigt</p>
+                <img src="img/vejrgrafik.webp" class="vejrKnud" alt="Vejrudsigt">
+            </div>
+
+            <div style="height: 540px; width: 540px;" class="col bg-morkebla align-content-center rounded-3">
+                <p class="qr-tekst text-center">Scan QR-koden <br> for rutevejledning</p>
+                <img src="img/qr.webp" class="qr" alt="QR kode">
+            </div>
+        </div>
+    </div>
+
+</div>
 
 
 

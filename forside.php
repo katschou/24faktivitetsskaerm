@@ -2,10 +2,6 @@
 require "settings/init.php";
 ?>
 
-
-
-
-
 <!DOCTYPE html>
 
 <html lang="da">
@@ -23,7 +19,6 @@ require "settings/init.php";
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <script src="https://kit.fontawesome.com/bfdd5c06bb.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://use.typekit.net/ovq0flk.css">
 </head>
 

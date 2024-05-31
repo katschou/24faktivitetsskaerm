@@ -21,7 +21,7 @@ require "settings/init.php";
     <link rel="stylesheet" href="https://use.typekit.net/ovq0flk.css">
 </head>
 
-<body class="bg-lysebla">
+<body class="bg-gron">
 <div class="container" style="width:1130px; height:1720px; background-color: #E0CEB4">
 
     <div class="header container">

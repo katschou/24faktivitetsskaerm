@@ -17,9 +17,6 @@ showTime();
 const todayTemp = document.querySelector('#todayTemp');
 const todayIcon = document.querySelector('#todayIcon');
 
-
-
-
 findCity();
 function findCity(){
     fetch ('https://geocoding-api.open-meteo.com/v1/search?name=holb%C3%A6k&count=10&language=en&format=json')
@@ -30,6 +27,7 @@ function findCity(){
             forecast(lat, long);
         })
 }
+
     function forecast(lat, long){
         fetch('https://api.open-meteo.com/v1/forecast?latitude=55.7175&longitude=11.71279&hourly=temperature_2m,weather_code&forecast_days=1')
             .then(req => req.json())
